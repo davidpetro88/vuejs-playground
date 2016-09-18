@@ -1,2 +1,3 @@
-var liquidos = require('./liquidos');
-console.log(liquidos)
+require(['./liquidos'], function (liquidos) {
+    console.log(liquidos)
+});
